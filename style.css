@@ -1,0 +1,49 @@
+@font-face {
+    font-family: "Tesla";
+    src: url("TESLA.ttf");
+}
+body{
+    font-family: "Tesla";
+}
+.inputbox{
+border: 3px solid gray;
+}
+.blue{
+    text-shadow:
+    0 0 7px rgb(0, 255, 221),
+    0 0 10px rgb(0, 255, 221),
+    0 0 21px rgb(0, 255, 221),
+    0 0 42px rgb(0, 0, 225),
+    0 0 82px rgb(0, 0, 225),
+    0 0 92px rgb(0, 0, 255),
+    0 0 102px rgb(0, 0, 255),
+    0 0 151px rgb(0, 0, 255);
+}
+.red{
+    color: orange;
+    text-shadow:
+    0 0 7px orange,
+    0 0 10px orange,
+    0 0 21px orange,
+    0 0 42px red,
+    0 0 82px red,
+    0 0 92px red,
+    0 0 102px red,
+    0 0 151px red;
+}
+.bblue{
+    box-shadow:
+    0 0 3px rgb(0, 255, 221),
+    0 0 7px rgb(0, 255, 221),
+    0 0 21px rgb(0, 255, 221),
+    0 0 42px rgb(0, 225, 221),
+    0 0 82px rgb(0, 0, 225);
+}
+.rred{
+    box-shadow:
+    0 0 7px orange,
+    0 0 10px orange,
+    0 0 21px orange,
+    0 0 42px orangered
+    0 0 82px red,
+}
