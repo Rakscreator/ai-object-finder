@@ -47,3 +47,14 @@ border: 3px solid gray;
     0 0 42px orangered
     0 0 82px red,
 }
+canvas{
+    border: 3px solid white;
+    box-shadow:
+    0 0 7px orange,
+    0 0 10px orange,
+    0 0 21px orange,
+    0 0 42px orangered
+    0 0 82px red;
+    color: white;
+    border-radius: 30px;
+}
