@@ -20,7 +20,7 @@ border: 3px solid gray;
     0 0 151px rgb(0, 0, 255);
 }
 .red{
-    color: orange;
+    color: red;
     text-shadow:
     0 0 7px orange,
     0 0 10px orange,
@@ -45,16 +45,32 @@ border: 3px solid gray;
     0 0 10px orange,
     0 0 21px orange,
     0 0 42px orangered
-    0 0 82px red,
+    0 0 82px red;
 }
 canvas{
-    border: 3px solid white;
-    box-shadow:
+    border: 3px solid rgb(255, 149, 0);
+    box-shadow:  0 0 7px orange,
     0 0 7px orange,
-    0 0 10px orange,
-    0 0 21px orange,
-    0 0 42px orangered
-    0 0 82px red;
-    color: white;
+    0 0 15px orange,
+    0 0 30px orange;
     border-radius: 30px;
+    margin-top: 100px;
+}
+.footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    color: white;
+    text-shadow:
+    0 0 7px rgb(0, 255, 221),
+    0 0 10px rgb(0, 255, 221),
+    0 0 21px rgb(0, 255, 221),
+    0 0 42px rgb(0, 0, 225),
+    0 0 82px rgb(0, 0, 225),
+    0 0 92px rgb(0, 0, 255),
+    0 0 102px rgb(0, 0, 255),
+    0 0 151px rgb(0, 0, 255);
+    line-height: 2;
+    font-size: 30px;
 }
