@@ -2,10 +2,10 @@ Status = "";
 objects = [];
 
 function setup(){
-     canvas = createCanvas(1280,720);
+     canvas = createCanvas(800,600);
     canvas.center();
     video = createCapture(VIDEO);
-    video.size(1280,720);
+    video.size(800,600);
     video.hide();
 }
 function start(){
@@ -18,7 +18,7 @@ function modelLoaded(){
     Status = true;
 }
 function draw(){
-    image(video,0,0,1280,720);
+    image(video,0,0,800,600);
     if(Status != ""){
         object_Detector.detect(video, gotResults);
         for(i = 0;i < objects.length;i++){
